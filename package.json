@@ -1,0 +1,25 @@
+{
+    "name": "verifica-koa",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "scripts": {
+        "build": "mkdir -p dist && rm -r dist && tsc",
+        "prettier": "prettier ./src/**/*.{js,ts,tsx,json} --write"
+    },
+    "devDependencies": {
+        "@radoslaw-medryk/tslint": "0.1.8",
+        "@types/koa": "^2.11.0",
+        "koa": "^2.11.0",
+        "prettier": "1.18.2",
+        "tslint": "5.20.0",
+        "tslint-config-prettier": "1.18.0",
+        "typescript": "3.6.3",
+        "verifica": "0.1.1"
+    },
+    "peerDependencies": {
+        "koa": "^2.11.0",
+        "verifica": "0.1.1"
+    },
+    "dependencies": {}
+}

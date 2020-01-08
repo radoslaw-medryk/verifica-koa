@@ -1,0 +1,1 @@
+export { handleVerificaExceptions } from "./handleVerificaExceptions";
