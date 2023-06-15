@@ -1,6 +1,6 @@
 {
     "name": "verifica-koa",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "scripts": {
@@ -15,7 +15,7 @@
         "tslint": "5.20.0",
         "tslint-config-prettier": "1.18.0",
         "typescript": "3.6.3",
-        "verifica": "0.1.1"
+        "verifica": "^0.1.14"
     },
     "peerDependencies": {
         "koa": "^2.11.0",
